@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar li {
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #0073e6;
+    color: #fff;
+  }
+  
+  .hero .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-bottom: 20px;
+  }
+  
+  /* Skills Section */
+  .skills {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .skills h2 {
+    margin-bottom: 20px;
+  }
+  
+  .skill-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .skill {
+    text-align: center;
+  }
+  
+  .skill img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  
+  /* Projects Section */
+  .projects {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .projects h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .project {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .project h3 {
+    margin: 0 0 10px;
+  }
+  
+  .project a {
+    color: #0073e6;
+    text-decoration: none;
+  }
+  
+  .project a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer Section */
+  .footer {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
